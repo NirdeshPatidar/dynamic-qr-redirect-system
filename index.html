@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Opening Instagram...</title>
-<meta http-equiv="refresh" content="5; URL='https://www.instagram.com/_nirdeshpatidar/'" />
-<link rel="stylesheet" href="styles.css">
+    <title>Opening Instagram...</title> <!-- Browser tab me dikhega title -->
+    
+    <!-- Auto redirect after 10 seconds to Instagram page -->
+    <meta http-equiv="refresh" content="10; URL='https://www.instagram.com/aascharya_surprises/'" />
+
+    <!-- Link external CSS file for styling loader, message, text -->
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<div class="loader"></div>
-<div class="message">Opsss something is worng...</div>
-<h1 id="text"></h1>
-<script src="script.js"></script>
+    <!-- Loader animation div (spinner / circular loader) -->
+    <div class="loader"></div>
+
+    <!-- Fallback message in case something goes wrong -->
+    <div class="message">Opsss something is worng☠️☠️...</div>
+
+    <!-- Typewriter / dynamic text will appear here via script.js -->
+    <h1 id="text"></h1>
+
+    <!-- Link external JavaScript file for typewriter effect, animations -->
+    <script src="script.js"></script>
 </body>
+
 </html>

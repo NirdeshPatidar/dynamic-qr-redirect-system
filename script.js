@@ -9,5 +9,5 @@ function typeWriter() {
   }
 }
 
-// 2 seconds delay before typing starts
-setTimeout(typeWriter, 2000);
+// 7 seconds delay before typing starts
+setTimeout(typeWriter, 7000);
